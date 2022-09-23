@@ -4,10 +4,21 @@
  */
 package br.com.ordermanagement.ordermanagement.domain;
 
+import javax.persistence.Entity;
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  *
  * @author Gustavo
  */
-public class ClientDomain {
-    
+@Getter
+@Setter
+@Entity
+public class ClientDomain
+{
+    public String nome;
+    public String cpf;
+    public int telefone;
+    public String email;    
 }
