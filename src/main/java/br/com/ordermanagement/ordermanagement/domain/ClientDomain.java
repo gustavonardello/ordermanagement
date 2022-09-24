@@ -17,8 +17,8 @@ import lombok.Setter;
 @Entity
 public class ClientDomain
 {
-    public String nome;
+    public String clientName;
     public String cpf;
-    public int telefone;
+    public int phone;
     public String email;    
 }
