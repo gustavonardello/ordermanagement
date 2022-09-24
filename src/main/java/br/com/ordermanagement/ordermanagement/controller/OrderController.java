@@ -13,10 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class OrderController {
+	
     @GetMapping(value = "/retorno")
     public String valor()
     {
-        return "Retorno API";
+        return "Preste sempre atenção nos Pull request que pedem pra voce aprovar. Sempre analise";
     }
     
 }
