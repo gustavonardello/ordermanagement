@@ -18,17 +18,7 @@ import lombok.Setter;
 @Entity
 public class MonetaryDomain 
 {
-    @Id
-    private Long id;
-    public BigDecimal valor;
-    public BigDecimal troco;
-    public BigDecimal saldo;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }   
+    public BigDecimal value;
+    public BigDecimal cashback;
+    public BigDecimal balance;
 }

@@ -21,49 +21,9 @@ public class OrderDomain
 {
     @Id
     public int id;
-    public int quantidade;
-    public String descricao;
+    public int amount;
+    public String description;
     
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
-    public String data;   
-
-    public int getId() 
-    {
-        return id;
-    }
-
-    public void setId(int id) 
-    {
-        this.id = id;
-    }
-
-    public int getQuantidade() 
-    {
-        return quantidade;
-    }
-
-    public void setQuantidade(int quantidade) 
-    {
-        this.quantidade = quantidade;
-    }
-
-    public String getDescricao() 
-    {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) 
-    {
-        this.descricao = descricao;
-    }
-
-    public String getData() 
-    {
-        return data;
-    }
-
-    public void setData(String data) 
-    {
-        this.data = data;
-    }   
+    public String data;  
 }
