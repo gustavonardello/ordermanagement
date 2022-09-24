@@ -20,9 +20,9 @@ import lombok.Setter;
 public class OrderDomain 
 {
     @Id
-    public int id;
-    public int amount;
-    public String description;
+    public int gustavo;
+    public int maior;
+    public String bundao;
     
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     public String data;  
