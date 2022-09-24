@@ -16,7 +16,7 @@ public class OrderController
     OrderRepository orderRepository;
     
     @GetMapping(value = "/orders")
-     public List<OrderDomain> returnOrdered() throws Exception
+     public List<OrderDomain> infoOrdered() throws Exception
     {
         return orderRepository.infoOrdered();
     }

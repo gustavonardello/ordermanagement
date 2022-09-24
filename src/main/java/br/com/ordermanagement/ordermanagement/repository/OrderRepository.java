@@ -10,5 +10,4 @@ import br.com.ordermanagement.ordermanagement.domain.OrderDomain;
 public interface OrderRepository {
 
 	List<OrderDomain> infoOrdered() throws Exception;
-
 }
