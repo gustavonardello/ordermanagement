@@ -21,8 +21,8 @@ public class OrderDomain
 {
     @Id
     public int id;
-    public int amount;
-    public String description;
+    public int Amount;
+    public String Description;
     
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     public String data;  
