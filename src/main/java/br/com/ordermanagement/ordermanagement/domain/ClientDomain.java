@@ -1,8 +1,6 @@
 package br.com.ordermanagement.ordermanagement.domain;
 
 import javax.persistence.Entity;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
 public class ClientDomain

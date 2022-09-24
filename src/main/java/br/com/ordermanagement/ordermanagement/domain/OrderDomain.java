@@ -3,8 +3,6 @@ package br.com.ordermanagement.ordermanagement.domain;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
 public class OrderDomain 

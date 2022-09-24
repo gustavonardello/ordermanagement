@@ -2,8 +2,6 @@ package br.com.ordermanagement.ordermanagement.domain;
 
 import java.math.BigDecimal;
 import javax.persistence.Entity;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
 public class MonetaryDomain 

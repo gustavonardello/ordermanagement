@@ -9,5 +9,4 @@ import org.springframework.stereotype.Repository;
 public interface OrderRepository extends JpaRepository<OrderDomain, Long>{
 
 	List<OrderDomain> infoOrdered() throws Exception;
-
 }
