@@ -1,25 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package br.com.ordermanagement.ordermanagement.service;
 
-import br.com.ordermanagement.ordermanagement.domain.OrderDomain;
-import br.com.ordermanagement.ordermanagement.repository.OrderRepository;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author Gustavo
- */
+import br.com.ordermanagement.ordermanagement.domain.OrderDomain;
+import br.com.ordermanagement.ordermanagement.repository.OrderRepository;
+
 @Service
-public abstract class OrderService implements OrderRepository
+public class OrderService implements OrderRepository
 {	
 	@Autowired
 	DescriptionGeneratorService descriptionGeneratorService;
